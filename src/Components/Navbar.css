@@ -1,0 +1,9 @@
+.navbarSection {
+  padding: 1rem;
+  width: 100%;
+  text-align: center;
+}
+.navbarSection .Navbarlink {
+  text-decoration: none;
+  padding: 1rem;
+}

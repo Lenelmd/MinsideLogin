@@ -1,0 +1,111 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #aaa;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #335ddc;
+  border-radius: 8px;
+}
+
+* {
+  box-sizing: border-box;
+}
+.form-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 0.5rem 4rem;
+  height: 560px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  margin: 2rem auto;
+  border-radius: 15px;
+  border: 1px solid #c3c2c2;
+}
+.form-container .logo {
+  padding: 4rem 0;
+}
+.form-container .logo img {
+  width: 15rem;
+  height: 3rem;
+}
+
+.form-container p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.form-container form {
+  transition: transform 0.6s ease-in-out;
+}
+
+.form-container.register-form {
+  transform: translateX(400px);
+}
+
+.form-container.login-form {
+  transform: translateX(0);
+}
+
+.form-container.register-form .login-form {
+  transform: translateX(-400px);
+}
+
+.form-container.register-form h2 {
+  margin-bottom: 30px;
+}
+
+.form-container input[type="text"],
+.form-container input[type="password"],
+.form-container input[type="email"] {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 15px;
+  border: 1px solid #c3c2c2;
+  border-radius: 10px;
+  outline: none;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #c7b9a5;
+  color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.form-container button:hover {
+  background-color: #c7b9a5dc;
+}
+
+.form-container .toggle-form {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #666;
+  cursor: pointer;
+}
+
+.formslinks {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.loginformlink {
+  color: #c7b9a5;
+  padding: 0.2rem 0;
+  text-decoration: none;
+}

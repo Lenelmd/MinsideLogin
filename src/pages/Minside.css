@@ -1,0 +1,88 @@
+.minside-container {
+  max-width: 500px;
+  width: 100%;
+  padding: 0 4rem;
+  height: 560px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+  margin: 2rem auto;
+  border-radius: 15px;
+  border: 1px solid #c3c2c2;
+}
+
+.minside-container .minsidep {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.9rem;
+}
+
+.minside-container form {
+  transition: transform 0.6s ease-in-out;
+}
+
+.minside-container.register-form {
+  transform: translateX(400px);
+}
+
+.minside-container.minsidebox {
+  transform: translateX(0);
+}
+
+.minside-container.register-form .minsidebox {
+  transform: translateX(-400px);
+}
+
+.boxcontainer .box {
+  display: flex;
+  width: 380px;
+  height: 150px;
+  background-color: #c7b9a5;
+}
+.boxcontainer .box .grpahimg {
+  width: 50%;
+  padding: 1rem;
+  height: 100%;
+  background-color: #c7b9a5;
+}
+
+.minsidetop {
+  padding: 0rem 0;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  padding: 1rem;
+}
+ul li {
+  padding: 0.3rem 0;
+}
+
+ul li::before {
+  content: "\2022";
+  color: red;
+  font-weight: 900;
+  display: inline-block;
+  width: 0.5em;
+  margin-left: -1em;
+}
+.progress {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.progress img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.3rem 0;
+  width: 13px !important;
+  height: 13px !important;
+}
+
+.progress span {
+  font-size: 0.7rem;
+}
